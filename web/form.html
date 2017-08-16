@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <script src="./jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div align="center">
+        <form id="form" name="form" action="Xxx.action" method="post">
+            <table align="center" id="table" style="width: auto;height: auto" border="1">
+                <tr>
+                    <td width="200">
+                        姓名：&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td width="200">
+                        性别：&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                    <td width="200">
+                        年龄：&nbsp;&nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <input type="button" id="button1" name="button1" value="1" onclick="ss()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" id="button2" name="button1" value="2" onclick="ss1()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" id="button3" name="button1" value="3" onclick="ss2()">
+    </div>
+<script type="text/javascript">
+    function ss() {
+
+        $("#form").html(
+            "<table align='center' id='table' style='width: auto;height: auto' border='1'> " +
+            "<tr> " +
+            "<td width='200'> 姓名：&nbsp;&nbsp;&nbsp;&nbsp;" +
+            "</td> <td width=200'> " +
+            "性别：&nbsp;&nbsp;&nbsp;&nbsp;" +
+            "</td> " +
+            "<td width='200'> " +
+            "年龄：&nbsp;&nbsp;&nbsp;&nbsp;" +
+            "</td> " +
+            "</tr>" +
+
+            "<tr>" +
+            "<td width='200'>" +
+            "张三"+
+            "</td> " +
+            "<td width='200'>" +
+            "男 " +
+            "</td> " +
+            "<td width='200'>" +
+            "20 " +
+            "</td> " +
+        "</tr>"+
+        "<tr>" +
+            "<td width='200'>" +
+            "李四"+
+            "</td> " +
+            "<td width='200'>" +
+            "男" +
+            "</td> " +
+            "<td width='200'>" +
+            "22 " +
+            "</td> " +
+        "</tr>"+
+        "</table>");
+    }
+</script>
+    <script type="text/javascript">
+        function ss1() {
+
+            $("#form").html(
+                "<table align='center' id='table' style='width: auto;height: auto' border='1'> " +
+                "<tr> " +
+                "<td width='200'> 姓名：&nbsp;&nbsp;&nbsp;&nbsp;" +
+                "</td> <td width=200'> " +
+                "性别：&nbsp;&nbsp;&nbsp;&nbsp;" +
+                "</td> " +
+                "<td width='200'> " +
+                "年龄：&nbsp;&nbsp;&nbsp;&nbsp;" +
+                "</td> " +
+                "</tr>" +
+
+                "<tr>" +
+                "<td width='200'>" +
+                "asdf"+
+                "</td> " +
+                "<td width='200'>" +
+                "sd " +
+                "</td> " +
+                "<td width='200'>" +
+                "20 " +
+                "</td> " +
+                "</tr>"+
+                "<tr>" +
+                "<td width='200'>" +
+                "123123"+
+                "</td> " +
+                "<td width='200'>" +
+                "男" +
+                "</td> " +
+                "<td width='200'>" +
+                "22 " +
+                "</td> " +
+                "</tr>"+
+                "</table>");
+        }
+    </script>
+    <script type="text/javascript">
+        function ss2() {
+
+            $("#form").html(
+                "<table align='center' id='table' style='width: auto;height: auto' border='1'> " +
+                "<tr> " +
+                "<td width='200'> 姓名：&nbsp;&nbsp;&nbsp;&nbsp;" +
+                "</td> <td width=200'> " +
+                "性别：&nbsp;&nbsp;&nbsp;&nbsp;" +
+                "</td> " +
+                "<td width='200'> " +
+                "年龄：&nbsp;&nbsp;&nbsp;&nbsp;" +
+                "</td> " +
+                "</tr>" +
+
+                "<tr>" +
+                "<td width='200'>" +
+                "23412341234324324"+
+                "</td> " +
+                "<td width='200'>" +
+                "男 " +
+                "</td> " +
+                "<td width='200'>" +
+                "20 " +
+                "</td> " +
+                "</tr>"+
+                "<tr>" +
+                "<td width='200'>" +
+                "李asdf四"+
+                "</td> " +
+                "<td width='200'>" +
+                "男" +
+                "</td> " +
+                "<td width='200'>" +
+                "22 " +
+                "</td> " +
+                "</tr>"+
+                "</table>");
+        }
+    </script>
+</body>
+</html>
